@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CON POST</title>
+</head>
+<body>
+    <h1>Sign UP</h1>
+    <h2>It's free and anyone can join</h2>
+
+       <form action="https://reqres.in/api/register"  method="POST">
+       <label for="Username">First name</label>
+       <input type="text" name  ="Username"/>
+       <br>
+       <br/>
+       <label for="Last name">Last name</label>
+       <input type="text" name ="Last name"/>
+       <br/>
+       <br/>
+       <label for="email">Your e mail</label>
+       <input type="text" name ="email"/>
+       <br/>
+       <br/>
+       <label for="password">New password</label>
+       <input type="text" name ="password"/>
+
+       <br/>
+       <br/>
+       <label for="gender">I am </label>
+       <select name="gender" id="gender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+
+       </select>
+       <br/>
+       <br/>
+       <label for="birthday">Birthday</label>
+       <input id = "birthday" name="birthday"  type="date"/>
+       <br/>
+       <br/>
+
+
+       <input type="submit" value= "Enviar"/>
+    </form> 
+</body>
+</html>

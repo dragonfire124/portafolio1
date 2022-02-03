@@ -1,0 +1,148 @@
+#hola{
+    top:0;
+    width: 100%;
+    position: fixed;
+    background-color: red;
+}
+
+
+
+.germany{
+    width:50%;
+    height:250px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: orchid;
+  }
+
+.france{
+width:50%;
+height:250px;
+display:flex;
+margin:auto;
+margin-top: 10px;
+flex-direction: row;
+background-color: orchid;
+}
+
+.england{
+width:50%;
+height:250px;
+display:flex;
+margin:auto;
+margin-top: 10px;
+background-color: red;
+flex-wrap: wrap;
+justify-content: space-between;
+border:1px solid black;
+}
+
+.japan{
+    width:50%;
+    height:250px;
+    display:flex;
+    margin:auto;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+    }
+
+.mexico{
+    width:50%;
+    height:250px;
+    display:flex;
+    margin:auto;
+    margin-top: 10px;
+    flex-direction: row;
+    }
+
+
+  .black{
+        width:  100%;  
+        height: 83px;
+        background-color: black;
+  }
+   .red{ 
+    width:  100%;  
+    height: 83px;
+    background-color: red;}
+
+   .yellow{
+    width:  100%;
+    height: 83px;     
+    background-color: orange;}
+
+
+    .bluef{
+        width: 33.3%;
+        height: 250px;
+        background-color: blue;
+    }
+    .whitef{
+        width: 33.3%;
+        height: 250px;
+        background-color: white;
+        display: flex;
+    }
+    .redf{
+        width: 33.3%;
+        height: 250px;
+        background-color: red;
+    }
+
+    .colf1{
+    width:48%;
+    height:110px;   
+    background-color: white;  
+    margin-bottom: 30px;
+    }
+
+    .colf2{
+        width:48%;
+        height:110px;   
+        background-color: white;  
+        }
+    
+        .colf3{
+            width:48%;
+            height:110px;   
+            background-color: white;  
+      
+            }
+            .colf4{
+                width:48%;
+                height:110px;   
+                background-color: white;  
+                }
+
+
+.circle{
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: red;
+}
+
+.verde{
+    width: 33.3%;
+    height: 250px;
+    background-color: green;
+}
+
+.aguila{
+    width: 150px;
+    height:150px;
+
+}
+
+.whitem{
+    width: 33.3%;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CON GET</title>
+    <link rel="stylesheet"  href="formulario.css">
+</head>
+<body>
+    <section class="registro">
+        <br>
+        <br>
+    <h1>Sign UP</h1>
+    <h2>It's free and anyone can join</h2>
+    <div class = "user">
+       <form action="https://reqres.in/api/users?page=2"  method="get">
+       <label for="Username" class = "user">First name</label>
+       <input type="text" name  ="Username"  class="opt1"/>
+       <br>
+       <label for="Last name">Last name</label>
+       <input type="text" name ="Last name" class="opt1" />
+       <br/>
+       <label for="email">Your e mail</label>
+       <input type="text" name ="email" class="opt1"/>
+       <br/>
+       <label for="password">New password</label>
+       <input type="text" name ="password" class="opt1"/>
+       <br>
+       <div>
+       <label for="gender">I am </label>
+       <select name="gender" id="gender" class="opt">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+       </select>
+       <br>
+       <label for="birthday" >Birthday</label>
+       <input id = "birthday" name="birthday"  type="date" class="opt2"/>
+    </div>
+       <p id="text">Why do I need to provide this?</p>
+       
+
+       <input type="submit" value= "Sign up" id ="button"/>
+       <hr>
+       <p id="p1"><a href="wwww.facebook.com">Create a page</a> for a celebrity, band or business</p>
+    </form> 
+</section>
+</body>
+</html>

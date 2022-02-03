@@ -1,0 +1,53 @@
+
+
+.registro{
+
+width: 400px;
+background: linear-gradient(to top right, rgb(159, 214, 216), white);
+margin: auto; 
+margin-top:100px;
+padding: 20px;
+border: double 10px white;
+}
+
+form{
+    width: 400px;
+    align-items: center;
+}
+
+.user {
+text-align: right;
+
+}
+
+#button{
+background-color: green;
+color: white;
+margin-right:110px;
+}
+
+#p1{
+    color:gray;
+}
+
+.opt{
+margin-top: 3px;    
+width:176px;
+height: 17px;
+}
+
+.opt1{
+    margin-top: 3px;    
+    height: 9px;
+}
+
+.opt2{
+    margin-top: 3px;  
+    width:171px;  
+    height: 13px;
+}
+
+#text{
+    margin:5px 25px 0 0;
+    font-size: 12px;
+} 

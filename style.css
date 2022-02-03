@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+h1{
+    
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+a{text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 8px;
+}
+
+#caja{
+    width: 50%;
+    margin:auto;
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button{
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(201, 201, 238);
+    
+    padding: 5px;
+
+}
+.button:hover{
+    background-color: rgb(210, 132, 211);
+    
+}
